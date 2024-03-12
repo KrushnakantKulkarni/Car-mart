@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/poppper.js"></script>
+    <style>
+        *{
+            background-color: aqua;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="container">
+       <div class="row mt-5" >
+            <div class="col-md-4 mt-5  mx-auto shadow">
+                <h2 class="mb-5 text-center"><strong>User Registration</strong></h2>  
+                <form method="post" action=" ">
+                    <div class="mb-3">
+                        <label for="One" class="form-label"><strong>Initial Name</strong></label>
+                        <input type="text" class="form-control" id="One" name="uname" placeholder="Enter First Name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Two" class="form-label"><strong>Finale Name</strong></label>
+                        <input type="text" class="form-control" id="Two" name="uname" placeholder="Enter Last Name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Three" class="form-label"><strong>Mobile Number</strong></label>
+                        <input type="number" class="form-control" id="Three" name="uname" placeholder="Enter Mobile Number">
+                      </div>
+                    <div class="mb-3">
+                        <label for="Input1" class="form-label"><strong>Username:</strong></label>
+                        <input type="email" class="form-control" id="Input1" name="uname" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Input2" class="form-label"><strong>Password:</strong></label>
+                        <input type="password" class="form-control" id="Input2" name="upass" placeholder="Enter The Password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Input3" class="form-label"><strong>Confirm Password:</strong></label>
+                        <input type="password" class="form-control" id="Input3" name="uconpass" placeholder="Enter The Confirm Password">
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" class="btn btn-danger" value="Register">
+                        Already User ?<a href="Login.html">Log In</a>
+                    </div>
+                </form>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.anchor{
+    text-decoration: none;
+}
+
+.socail{
+  display: inline-block ;
+  margin-right:  20px ;
+}
+
+body {
+  background-color: aqua;
+
+}
+.One{
+  background-color: burlywood;
+}
